@@ -1,0 +1,235 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 20px;
+}
+
+.navbar img {
+    width: 38px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navlink {
+    color: black;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#typed {
+    font-size: 2rem;
+}
+
+.typed-cursor {
+    font-size: 2rem;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#projects-title {
+    text-align: center;
+}
+
+projects {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+projects Card {
+    display: flex;
+    margin: 20px;
+    color: white;
+    background-color: #141518;
+    width: 340px;
+    border-radius: 30px;
+    height: 255px;
+    align-items: center;
+    justify-content: center;
+}
+
+projects Card h3 {
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
+    margin: 10px;
+}
+
+projects Card .hidden h4, h5 {
+    text-align: center;
+}
+
+projects Card .hidden h4 {
+    font-size: 1.2rem;
+}
+
+projects Card .hidden .button {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    width: 90px;
+    height: 45px;
+    margin: auto;
+}
+
+chip {
+    padding: 5px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+}
+
+resume h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+resume h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+resume Card {
+    color: white;
+    background-color: #141518;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+resume Card .title {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 18px;
+}
+
+resume Card img {
+    height: 64px;
+    width: 64px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 18px;
+}
+
+footer {
+    background-color: #141518;
+    margin-top: 5%;
+    color: white;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#contact-title {
+    text-align: center;
+}
+
+contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+}
+
+form {
+    width: 30%;
+}
+
+input {
+    width: 100%;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    transition: width 0.5s ease-in-out;
+}
+
+input:focus {
+    width: 110%;
+    outline: none;
+    border-bottom: 4px solid white;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    background-color: #EBEAE7;
+    min-height: 10rem;
+    max-width: 100%;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+#form-button {
+    min-width: 50px;
+    max-width: 100px;
+    float: right;
+    background-color: #EBEAE7;
+    border: none;
+    height: 2rem;
+    color: black;
+    cursor: pointer;
+}

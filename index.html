@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <link id="theme" rel="stylesheet" type="text/css" href="./css/light.css" />
+    <link rel="stylesheet" type="text/css" href="./css/lightSwitch.css">
+    <link rel="icon" href="./media/lightLogo.png">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
+    <title>Gordon Cheung</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <img src="./media/darkLogo.png" id="logo">
+            <ul>
+                <li><a href="#projects-title" class="navlink">Projects</a></li>
+                <li><a href="#resume" class="navlink">Resume</a></li>
+                <li><a href="#contact" class="navlink">Contact</a></li>
+            </ul>
+        </div>
+        <div class="light-switch">
+            <p id="switch-text">Switch to Dark</p>
+            <label class="switch">
+                <input type="checkbox" id="light-switch" />
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </nav>
+    <script src="./js/lightSwitch.js"></script>
+    <header>
+        <div id="header-text">
+            <div id="typed-strings">
+                <h1><strong>Hi, My name is Gordon</strong></h1>
+            </div>
+            <span id="typed"></span>
+            <script src="./js/typing.js"></script>
+            <h2>Nice to meet you!</h2>
+            <h3>Full Stack Enthusiast, 2nd Year Electrical Engineering Student @ UBC</h3>
+            <div class="social-icon">
+                <a href="https://github.com/Hgjnnf" target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                </a>
+                <a href="https://www.linkedin.com/in/gordon-cheung-hwc/" target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-linkedin"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <h2 id="projects-title">Projects</h2>
+    <projects>
+        <Card>
+            <h3 class="title">Open</h3>
+            <div class="hidden">
+                <h4>Open</h4>
+                <p>Open is an app with a mission to encourage people to develop meaningful connections by opening up to others.</p>
+                <chip>MongoDB</chip>
+                <chip>Express</chip>
+                <chip>React</chip>
+                <chip>NodeJS</chip>
+                <br>
+                <h5>In Progress</h5>
+            </div>
+        </Card>
+        <Card>
+            <h3 class="title">A2A Message Generator</h3>
+            <div class="hidden">
+                <h4>A2A Message Generator</h4>
+                <p>This is a simple JavaScript program that generates random Apples to Apples message.</p>
+                <chip>JavaScript</chip>
+                <br>
+                <a href="https://github.com/Hgjnnf/ApplesToApplesMixedMessage" target="_blank"><button class="button">GitHub</button></a>
+            </div>
+        </Card>
+        <Card>
+            <h3 class="title">Pomodoro Panda</h3>
+            <div class="hidden">
+                <h4>Pomodoro Panda</h4>
+                <p>A pomodoro timer made to better the mental health of users by suggesting activities during break time. This is 
+                    an MVP of the timer made for BOLT McGill's "Be Present" Business and Technology Competition.
+                </p>
+                <chip>React</chip>
+                <chip>HTML</chip>
+                <chip>CSS</chip>
+                <br>
+                <a href="https://github.com/Hgjnnf/pomodoro-panda" target="_blank"><button class="button">GitHub</button></a>
+            </div>
+        </Card>
+    </projects>
+    
+        <resume>
+            <h2 id="resume">Resume</h2>
+            <div class="resume-reveal">
+                <h3>Work Experience</h3>
+                <Card>
+                    <h4 class="title">SEO Marketing Intern</h4>
+                    <img src="./media/wize.jpg"/>
+                    <div class="hidden">
+                        <h4>SEO Marketing Intern - Wize (2021/06 - Present)</h4>
+                        <ul>
+                            <li>Conducted Backlink Outreach to top educational instiution; earned backlinks from princeton.edu, uoregon.edu, etc.</li>
+                            <li>Developed content strategies to boost keyword rankings targeting university and high school students.</li>
+                            <li>Performed keyword, competitor, and backlink analyses using SEMrush.</li>
+                
+                    </div>
+                </Card>
+                <Card>
+                    <h4 class="title">Brand Ambassador</h4>
+                    <img src="./media/wize.jpg"/>
+                    <div class="hidden">
+                        <h4>Brand Ambassador - Wize (2020/09 - 2021/05)</h4>
+                        <ul>
+                            <li>Was named Top North American Rep for promoting Wize's courses and prepping sessions to 1000+ students through social media (~8% Conversion Rate).</li>
+                            <li>Co-founded and managed Wize UBC (Instagram: @wize.ubc), a social media initiative on Facebook
+                                and Instagram aiming to represent Wize towards UBC students and promote Wize's products and
+                                services (600+ Followers).</li>
+                            <li>Responsibilities include developing content strategies to gauge the interests of UBC students, designing informational and promotional graphics using Canva, and reaching out to other UBC
+                                organizations for promotions and spreading awareness of Wize.</li>
+                        </ul>
+                    </div>
+                </Card>
+                <h3>Extracurricular & Leadership</h3>
+                <Card>
+                    <h4 class="title">Launch Incubator Project Associate</h4>
+                    <img src="./media/enactus.png"/>
+                    <div class="hidden">
+                        <h4>Launch Incubator Project Associate - Enactus UBC (2021/04 - Present)</h4>
+                        <ul>
+                            <li>Identifying an issue or need in the community and learning through engagement with the
+                                community.</li>
+                            <li>Brainstorm solutions to the issue chosen and experiment with them.</li>
+                            <li>When a solution is found, work on ensuring the project is ready for launch by completing all
+                                required project tasks (Marketing, Partnerships, etc.).</li>
+                        </ul>
+                    </div>
+                </Card>
+                <Card>
+                    <h4 class="title">Director of Industry Relations</h4>
+                    <img src="./media/gamedev.png"/>
+                    <div class="hidden">
+                        <h4>Director of Industry Relations - UBC Game Development (2020/11 - Present)</h4>
+                        <ul>
+                            <li>Liased with 10+ Industry partners including Telus, Electronic Arts, and local game studios for events
+                                such as workshops, the annual UBC Game Dev conference, and the year-end game showcase.</li>
+                            <li>Coordinate and relay information between the president, the treasurer, the marketing team, and
+                                the industry partners.</li>
+                            <li>Secured $1500+ sponsorships from our various partners. </li>
+                        </ul>
+                    </div>
+                </Card>
+            </div>
+        </resume>
+    <script src="./js/hoverSwitch.js"></script>
+    <footer>
+        <contact id="contact">
+            <h2 id="contact-title">Contact Me</h2>
+            <form action="https://formsubmit.co/gordonhwc1@gmail.com" method="POST">
+                <label for="fname" class="form-label">First Name* </label>
+                <br>
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                <br>
+                <label for="lname" class="form-label">Last Name* </label>
+                <br>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                <br>
+                <label for="email" class="form-label">Email* </label>
+                <br>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <br>
+                <label for="message" class="form-label">Message* </label>
+                <input type="hidden" name="_subject" value="You've got a message from your portfolio site!">
+                <br>
+                <textarea rows="10" cols="30" name="message" placeholder="Write your message here..." required></textarea>
+                <br>
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_autoresponse" value="Your message has been received! I will respond to your message soon.">
+                <input type="submit" name="Send Message" id="form-button">
+            </form>
+        </contact>
+        <h5>Made by Gordon Cheung 2021</h5>
+    </footer>
+    <script src="./js/scrollReveal.js"></script>
+
+</body>
+  
+</html>

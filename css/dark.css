@@ -1,0 +1,250 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 20px;
+}
+
+.navbar img {
+    width: 38px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navlink {
+    color: rgb(255, 255, 255);
+}
+
+#switch-text {
+    color: white;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+#typed {
+    font-size: 2rem;
+}
+
+.typed-cursor {
+    font-size: 2rem;
+    color: white;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+
+#projects-title {
+    text-align: center;
+    color: white;
+}
+
+projects {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+projects Card {
+    display: flex;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #EBEAE7;
+    width: 340px;
+    border-radius: 30px;
+    height: 255px;
+    align-items: center;
+    justify-content: center;
+}
+
+projects Card h3 {
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
+    margin: 10px;
+}
+
+projects Card .hidden h4, h5 {
+    text-align: center;
+}
+
+projects Card .hidden h4 {
+    font-size: 1.2rem;
+}
+
+projects Card .hidden .button {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    width: 90px;
+    height: 45px;
+    margin: auto;
+}
+
+chip {
+    padding: 5px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+}
+
+resume h2, resume h3 {
+    color: white;
+}
+
+resume h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+resume h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+resume Card {
+    color: rgb(0, 0, 0);
+    background-color: #EBEAE7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+resume Card .title {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 18px;
+}
+
+resume Card img {
+    height: 64px;
+    width: 64px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 18px;
+}
+
+footer {
+    background-color: #EBEAE7;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#contact-title {
+    text-align: center;
+}
+
+contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+}
+
+form {
+    width: 30%;
+}
+
+label, #contact-title {
+    color: black;
+}
+
+input {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    transition: width 0.5s ease-in-out;
+}
+
+input:focus {
+    width: 110%;
+    outline: none;
+    border-bottom: 4px solid black;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    background-color: #141518;
+    min-height: 10rem;
+    max-width: 100%;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+#form-button {
+    min-width: 50px;
+    max-width: 100px;
+    float: right;
+    background-color: #141518;
+    border: none;
+    height: 2rem;
+    color: white;
+    cursor: pointer;
+}
