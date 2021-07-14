@@ -142,6 +142,13 @@ a {
     margin: 10px;
 }
 
+.hidden a {
+    width: 90px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 resume h2, resume h3 {
     color: white;
 }
