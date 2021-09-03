@@ -71,6 +71,8 @@ header {
 
 #projects-title {
     text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 projects {
@@ -94,6 +96,12 @@ projects Card {
 
 projects Card h3 {
     font-size: 1.5rem;
+}
+
+projects Card .title {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
 }
 
 .hidden {
